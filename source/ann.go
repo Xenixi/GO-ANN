@@ -6,7 +6,7 @@ func main() {
 	fmt.Println("Starting ANN...")
 	n := network{784, 200, 10, 0.3}
 	fmt.Println("Input nodes for verification: ", n.inputNodes)
-	initialize()
+	n.initialize()
 }
 
 type network struct {
